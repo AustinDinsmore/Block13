@@ -48,7 +48,7 @@ function createMessage(fahren, celc) {
  * @returns {number} a number between 0 and the int passed in
  */
 function rand(limit) {
-  Math.random() * 100;
+  return Math.floor (Math.random()*100)+1;
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
